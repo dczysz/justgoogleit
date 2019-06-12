@@ -15,6 +15,10 @@ Sometimes you have to just Google it.
 
 
 ## Supported browsers
-* Chrome
+* [Chrome](https://chrome.google.com/webstore/detail/just-google-it/ojcmmcacebeldbdiglcgcgknhgkdpmid)
 * Firefox
 * Edge
+
+---
+
+[Report a bug](https://github.com/dczysz/justgoogleit/issues)
