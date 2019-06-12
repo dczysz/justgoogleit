@@ -42,7 +42,11 @@
   },
 
   "permissions": [
-    "<all_urls>",
+    "*://*.qwant.com/*",
+    "*://*.duckduckgo.com/*",
+    "*://*.startpage.com/*",
+    "*://*.searx.me/*",
+    "*://*.google.com/*",
     "tabs"
   ]
 }
