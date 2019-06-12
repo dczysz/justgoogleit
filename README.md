@@ -7,6 +7,13 @@ Browser extension for when your preferred search engine doesn't have the results
 Sometimes you have to just Google it.
 
 
+## Supported Search Engines
+* Qwant
+* DuckDuckGo
+* Startpage
+* searX
+
+
 ## Supported browsers
 * Chrome
 * Firefox
