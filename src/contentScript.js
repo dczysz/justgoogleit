@@ -7,13 +7,6 @@ window.browser = (function () {
 browser.runtime.onMessage.addListener(function(request, sender, sendResponse) {
   const url = window.location.href;
 
-  //TODO: Not working
-  if (/google.com/.test(url)) {
-    alert('youre on google')
-    sendResponse({ result:'You\'re already on Google!' });
-    return;
-  }
-
   const querySelectorString = getQuerySelectorString(url);
 
   // Double check if query input was found

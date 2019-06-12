@@ -7,14 +7,13 @@ window.browser = (function () {
 document.addEventListener('DOMContentLoaded', () => {
   const text = document.querySelector('p');
 
-  //TODO: Add link to readme for supported engines
-  text.innerHTML = 'Please use a supported search engine';
+  text.innerHTML = 'Please use a <a href="https://github.com/dczysz/justgoogleit/blob/master/README.md#supported-browsers">supported search engine</a>';
 
   browser.tabs.query({ currentWindow: true, active: true}, (tabs) => {
       browser.tabs.sendMessage(tabs[0].id, 'google it baby!', (response) => {
+        //! Google.com error: response/result is undefined even though it gets checked... wtf
         // alert(response.result);
-        //TODO: Remove readme link el before changing text below? Necessary?
-        text.innerHTML = typeof response !== undefined ? response.result : 'Something went wrong...';
+        text.innerHTML = typeof response.result !== undefined ? response.result : 'Something went wrong...';
       });
     }
   );
