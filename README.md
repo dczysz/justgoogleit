@@ -16,7 +16,7 @@ Sometimes you have to just Google it.
 
 ## Supported browsers
 * [Chrome](https://chrome.google.com/webstore/detail/just-google-it/ojcmmcacebeldbdiglcgcgknhgkdpmid)
-* Firefox
+* [Firefox](https://addons.mozilla.org/en-US/firefox/addon/just-google-it/)
 * Edge
 
 ---
