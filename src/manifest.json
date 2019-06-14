@@ -1,7 +1,7 @@
 {
   "name": "Just Google It",
   "description" : "Didn't find what you need on your preferred search engine? You may need to just Google it.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "manifest_version": 2,
   "author": "Derek Czysz",
 
@@ -44,13 +44,13 @@
   },
 
   "permissions": [
+    "*://*.google.com/*",
     "*://*.qwant.com/*",
     "*://*.duckduckgo.com/*",
     "*://*.startpage.com/*",
     "*://*.searx.me/*",
     "*://*.bing.com/*",
     "*://*.yahoo.com/*",
-    "*://*.google.com/*",
     "activeTab"
   ]
 }

@@ -12,6 +12,8 @@ Sometimes you have to just Google it.
 * DuckDuckGo
 * Startpage
 * searX
+* Bing
+* Yahoo
 
 
 ## Supported browsers
