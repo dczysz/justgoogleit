@@ -51,6 +51,6 @@
     "*://*.bing.com/*",
     "*://*.yahoo.com/*",
     "*://*.google.com/*",
-    "tabs"
+    "activeTab"
   ]
 }
