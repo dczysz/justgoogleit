@@ -24,7 +24,9 @@
         "*://*.qwant.com/*",
         "*://*.duckduckgo.com/*",
         "*://*.startpage.com/*",
-        "*://*.searx.me/*"
+        "*://*.searx.me/*",
+        "*://*.bing.com/*",
+        "*://*.yahoo.com/*"
       ],
       "js": ["contentScript.js"],
       "run_at": "document_start"
@@ -46,6 +48,8 @@
     "*://*.duckduckgo.com/*",
     "*://*.startpage.com/*",
     "*://*.searx.me/*",
+    "*://*.bing.com/*",
+    "*://*.yahoo.com/*",
     "*://*.google.com/*",
     "tabs"
   ]

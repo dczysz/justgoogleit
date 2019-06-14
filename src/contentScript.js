@@ -33,7 +33,7 @@ const swapSpaceForPlus = q => q.replace(/ /g, '+');
 
 const getQuerySelectorString = url => {
   switch (true) {
-    case /qwant.com/.test(url):
+    case /qwant.com/.test(url) || /bing.com/.test(url):
       return 'input[name="q"]';
 
     case /duckduckgo.com/.test(url):
@@ -44,6 +44,10 @@ const getQuerySelectorString = url => {
 
     case /searx.me/.test(url):
       return 'input#q';
+
+    case /yahoo.com/.test(url):
+      return 'input[name="p"]';
+
     default:
       return null;
   }
